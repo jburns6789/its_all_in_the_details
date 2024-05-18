@@ -70,7 +70,7 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.ClaimsIdentity.RoleClaimType = Claims.Role;
     options.ClaimsIdentity.EmailClaimType = Claims.Email;
 });
-
+//This is a test -Written by Jeffrey @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // Configure OpenIddict periodic pruning of orphaned authorizations/tokens from the database.
 builder.Services.AddQuartz(options =>
 {
